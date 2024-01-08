@@ -1226,6 +1226,9 @@
   }
 }
 @media(max-width: 479px) {
+  .home-page-container11{
+    flex-direction: column;
+  }
   .home-page-intro {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -1332,10 +1335,11 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .home-page-container12 {
-    width: 180px;
+    width: 100%;
   }
   .home-page-container13 {
-    width: 166px;
+    height:20%;
+    margin-bottom:40px;
   }
  
   .home-page-about-us {
