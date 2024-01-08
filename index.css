@@ -363,7 +363,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .footer-root-class-name {
-    width: var(--dl-size-size-maxwidth);
     max-width: var(--dl-size-size-maxwidth);
   }
 }
@@ -917,7 +916,6 @@
   }
   .home-page-image {
     order: 2;
-    width: var(--dl-size-size-maxwidth);
   }
   .home-page-text {
     width: 100%;
@@ -1080,9 +1078,6 @@
   }
 }
 @media(max-width: 767px) {
-  .home-page-image {
-    width: var(--dl-size-size-maxwidth);
-  }
   .home-page-text01 {
     top: 150px;
   }
