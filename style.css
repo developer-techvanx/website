@@ -295,7 +295,7 @@
     padding-bottom: var(--dl-space-space-unit);
   }
   .font-family {
-    gap: var(--dl-space-space-twounits);
+    gap: 20px;
   }
 }
 @media(max-width: 767px) {
